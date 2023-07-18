@@ -36,4 +36,61 @@ public class Oferta {
                 ", idlocal=" + idlocal +
                 '}';
     }
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getTitulo() {
+        return titulo;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+
+    public String getDescripcion() {
+        return descripcion;
+    }
+
+    public void setDescripcion(String descripcion) {
+        this.descripcion = descripcion;
+    }
+
+    public LocalDate getFecha_inicio() {
+        return fecha_inicio;
+    }
+
+    public void setFecha_inicio(LocalDate fecha_inicio) {
+        this.fecha_inicio = fecha_inicio;
+    }
+
+    public LocalDate getFecha_fin() {
+        return fecha_fin;
+    }
+
+    public void setFecha_fin(LocalDate fecha_fin) {
+        this.fecha_fin = fecha_fin;
+    }
+
+    public Integer getCostopersona() {
+        return costopersona;
+    }
+
+    public void setCostopersona(Integer costopersona) {
+        this.costopersona = costopersona;
+    }
+
+    public Integer getIdlocal() {
+        return idlocal;
+    }
+
+    public void setIdlocal(Integer idlocal) {
+        this.idlocal = idlocal;
+    }
 }

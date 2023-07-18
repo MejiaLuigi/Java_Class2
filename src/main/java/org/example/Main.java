@@ -2,23 +2,27 @@ package org.example;
 
 import org.example.modelos.*;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
+        Scanner teclado= new Scanner(System.in);
+        Usuario objetoUsuario=new Usuario();
 
-        Persona objeto=new Persona();
-        Local objetoDos=new Local();
-        Oferta objetoTres=new Oferta();
-        Reserva objetoCuatro=new Reserva();
+        System.out.print("Digite su nombre y apellidos: ");
+        objetoUsuario.setNombre(teclado.nextLine());
+
+        System.out.println("Su nombre es: " +objetoUsuario.getNombre());
 
         //Creando Un obj de la class Samurai, //todo obj ES UNA VARIABLE
-        Samurai objetoCinco=new Samurai(); //se supone solo los d4tos
-        System.out.println(objetoCinco);
+        //Samurai objetoCinco=new Samurai(); //se supone solo los d4tos
+        //System.out.println(objetoCinco);
 
-        Herramienta objetoSeis=new Herramienta();
-        System.out.println(objetoSeis);
+        //Herramienta objetoSeis=new Herramienta();
+        //System.out.println(objetoSeis);
 
-        Alimento objetoSiete=new Alimento();
-        System.out.println(objetoSiete);
+        //Alimento objetoSiete=new Alimento();
+        //System.out.println(objetoSiete);
 
     }
 }
